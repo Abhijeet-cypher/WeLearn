@@ -1,0 +1,148 @@
+.hire{
+    height: 700px;
+    /* width: 100%; */
+    background: url('../images/hire.jpg') ;
+    filter: sepia(100%) hue-rotate(190deg) saturate(50%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hire h2{
+    font-weight: 500;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.hire span{
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+
+.hire .span2{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hire button{
+    border: 3px solid black;
+    position: absolute;
+    top: 64%;
+    left: 70%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.points{
+    color: #36348E;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    height: 700;
+}
+
+.points h1{
+    color: #36348E;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+.study{
+    height: 500px;
+}
+
+
+.points-sub{
+    width: 550px;
+}
+
+
+
+.points-text h5{
+    font-size: 20px;
+    color: #36348E;
+    font-weight: 700;
+}
+
+
+
+
+.form-main{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #36348E;
+    height: 800px;
+}
+
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+}
+
+
+.steps h3{
+    font-size: 40px;
+    color: white;
+}
+
+
+.steps h4{
+    border-radius: 15px;
+    font-size: 23px;
+    color: white;
+    height: 50px;
+    margin: 2%;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.121);
+}
+
+.steps span{
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+    background-color: #36348E;
+}
+
+
+.form-sub{
+    width: 500px;
+}
+
+
+.form-sub label{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.form-sub form{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}

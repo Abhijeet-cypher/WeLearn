@@ -1,0 +1,59 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36348E;
+    height: 700px;
+    /* width: ; */
+}
+
+.form-text{
+    color: aliceblue;
+    font-size: 20PX;
+    margin-left: 10%;
+    width: 600px;
+}
+
+.form-div{
+    background-color: aliceblue;
+    /* margin-left: 70%; */
+    padding: 4%;
+    border-radius: 5%;
+    /* margin-top: 10%; */
+    height: 500px;
+    width: 500px;
+}
+
+
+.form-div input{
+    border-color: #36348E;
+}
+
+
+
+.contact-cards{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+.card{
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color: #36348E;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 400px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;   
+}
+
+
+.alert{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px;
+    /* padding: 10px; */
+}
